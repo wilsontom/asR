@@ -16,7 +16,7 @@ The package contains three separate functions, all of which using the filepath o
 ```r
 library(asR)
 
-test_file <- system.file('extdata/test_data.ASR', package = 'asR)
+test_file <- system.file('extdata/test_data.ASR', package = 'asR')
 
 
 asr_chroms <- get_chromatograms(test_file)
